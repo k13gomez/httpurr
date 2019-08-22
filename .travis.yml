@@ -1,8 +1,8 @@
 language: clojure
 lein: lein
 jdk:
-  - oraclejdk8
-  - oraclejdk9
+  - openjdk8
+  - openjdk9
 script:
 - ./scripts/build
 - node out/tests.js
